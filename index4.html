@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <button>Press Me</button>
+
+    <script>
+
+        let myName;
+        let myAge;
+
+        myName = 'Chris';
+        myAge = 37;
+
+        let myDog = 'Rover';
+
+        let myNameArray = ['Nara', 'Sunn', 'Chariya'];
+        let myNumberArray = [10, 15, 40]
+
+        let dog = {name: 'Spot', breed: 'Dalmation'};
+        
+        const button = document.querySelector('button');
+
+        button.onclick = function() {
+            let name = prompt('What is your name?');
+            alert('Hello ' + name + ', nice to meet you!');
+        }
+    </script>
+</body>
+</html>
